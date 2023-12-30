@@ -1,0 +1,6 @@
+Flask
+Flask-Session
+gunicorn
+cs50
+SQLAlchemy
+requests

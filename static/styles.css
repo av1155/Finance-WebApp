@@ -1,0 +1,124 @@
+/* Define common colors */
+:root {
+    --main-bg-color: #282a36;
+    --text-color: #f8f8f5;
+    --blue-color: #61afef;
+    --red-color: #ff6b6b;
+    --yellow-color: #e5c07b;
+    --green-color: #98c379;
+    --hover-color: #ff5733;
+    --table-heading-bg: #44475a;
+    --table-row-bg: #282a36;
+}
+
+/* Size and Colors for brand */
+nav .navbar-brand {
+    font-size: xx-large;
+    color: var(--text-color);
+}
+
+nav .navbar-brand .blue {
+    color: var(--blue-color);
+}
+
+nav .navbar-brand .red {
+    color: var(--red-color);
+}
+
+nav .navbar-brand .yellow {
+    color: var(--yellow-color);
+}
+
+nav .navbar-brand .green {
+    color: var(--green-color);
+}
+
+/* Navbar Hover Effect */
+nav .navbar-nav .nav-link:hover {
+    color: var(--hover-color);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--blue-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+    padding: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #34578b;
+    /* Darker shade on hover in dark mode */
+}
+
+/* Pointer Cursor for Links */
+a {
+    cursor: pointer;
+}
+
+/* Table Styles */
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+.table th,
+.table td {
+    border: 1px solid var(--table-heading-bg);
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: var(--table-heading-bg);
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* Table Row Hover Effect with Transition */
+.table tr:nth-child(even) {
+    background-color: var(--table-row-bg);
+}
+
+.table tr:hover {
+    background-color: var(--table-heading-bg);
+    transition: background-color 0.3s ease;
+}
+
+/* Dark mode background color for the entire website */
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 576px),
+(max-width: 992px) {
+    nav .navbar-brand {
+        font-size: large;
+        text-align: center;
+    }
+
+    .btn-primary,
+    .table th,
+    .table td {
+        padding: 12px;
+    }
+
+    .table th,
+    .table td {
+        font-size: small;
+    }
+
+    .table .btn-primary {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .btn-primary {
+        padding: 8px;
+    }
+}
