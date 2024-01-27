@@ -1,36 +1,25 @@
-# StockfolioHub: A Pinnacle of Financial Simulation
-
-## Accessing the Application
-
-Visit [StockfolioHub](https://stockfoliohub-698872332ce3.herokuapp.com/login) to start trading.
+# StockfolioHub
 
 ## Introduction
 
-StockfolioHub is not just a stock trading simulation platform; it's a groundbreaking foray into the intersection of technology and finance. This project is a showcase of advanced programming, financial acumen, and user-centric design, offering an unparalleled educational and engaging experience in the stock market's virtual landscape.
+StockfolioHub is an innovative full-stack web application that leverages the power of the IEX API to provide users with real-time trading data and a seamless trading experience. It is developed using Python, Flask, HTML, JavaScript, CSS, and Bootstrap. The application offers a straightforward functionality that simplifies the stock trading process, making it accessible to users of all levels of experience.
 
-## Core Features
+## Features
 
--   **Advanced Trading Algorithms**: Implements complex algorithms that mimic real-world stock market fluctuations, offering an authentic trading experience.
--   **Real-Time Market Data**: Integrates with live stock market feeds, providing users with up-to-the-minute market information for informed trading decisions.
--   **Intuitive User Interface**: Boasts a sleek, modern design that simplifies navigation and enhances user engagement.
--   **Comprehensive Financial Analytics**: Features robust tools for analyzing stocks, including historical data, trends, and performance metrics.
--   **Interactive Learning Modules**: Includes educational resources for users to learn about stock trading strategies, market analysis, and financial literacy.
+### Account Management
 
-## State-of-the-Art Technologies
+-   **Account Registration**: Users can easily register accounts and log in.
+-   **Secure Data Storage**: Account data is stored securely in an SQLite database.
 
--   **Responsive Web Design**: Utilizes the latest web design techniques for a seamless experience across all devices and screen sizes.
--   **Advanced Security Protocols**: Incorporates cutting-edge security measures, ensuring the utmost protection of user data and transactions.
--   **AI-Driven Insights**: Leverages artificial intelligence to provide users with personalized investment suggestions and market forecasts.
--   **Cloud-Based Architecture**: Hosted on a cloud platform for scalable, reliable, and uninterrupted service availability.
--   **Environmentally Conscious Hosting**: Deployed on a green hosting platform, aligning with sustainability goals and reducing the carbon footprint.
+### Stock Trading
 
-## Distinguishing Attributes
+-   **Real-Time Data**: Utilizes the IEX API for real-time stock information.
+-   **Trading Functionality**: Users can buy and sell stocks, managing their portfolio directly on the website.
 
--   **User Empowerment**: Empowers users with tools and information, transforming novices into informed investors.
--   **Community Engagement**: Features a community forum where users can share insights, strategies, and learn from one another.
--   **Global Market Access**: Offers access to a variety of international stock markets, broadening the scope of trading possibilities.
--   **Customizable Dashboards**: Users can personalize their dashboard to display the information most relevant to their trading style and preferences.
--   **Accessibility Compliant**: Ensures that the platform is accessible to users with disabilities, adhering to WCAG guidelines.
+### User Interface
+
+-   **Intuitive Design**: The platform offers an intuitive interface for a smooth user experience.
+-   **Bootstrap Integration**: Utilizes Bootstrap for responsive design and attractive UI components.
 
 ## Usage Guide
 
@@ -50,6 +39,10 @@ StockfolioHub is not just a stock trading simulation platform; it's a groundbrea
 -   `static/`: Static files like CSS and favicon.
 -   `templates/`: HTML templates for the web pages.
 
-## Conclusion
+## Hosting
 
-StockfolioHub represents a milestone in web-based financial applications. It's more than a platform; it's a comprehensive educational ecosystem that demystifies the stock market, equips users with practical skills, and sets a new standard in simulated trading experiences. I invite you to embark on this immersive journey into the world of stock trading with StockfolioHub, where innovation, education, and technology converge.
+-   **Heroku Deployment**: Hosted on Heroku for ease of access and reliability.
+
+## Data Sources
+
+-   **IEX Cloud**: Data provided by IEX Cloud for up-to-date stock information.
